@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*responsive*/
+:root{
+    --FontO: 'Open Sans', sans-serif;
+    --fontComic:'Comic Neue', cursive;
+}
+.flex{
+display: flex;
+justify-content: space-between;
+}
+.flex1{
+    display: flex;
+}
+.email{
+    border-radius: 15px 0 0 15px;
+    background-color: #ffffff;
+    padding: 10px 45px;
+    border: 1px solid #c8c8c8;
+    outline: none;
+    padding-left: 15px;
+}
+button{
+  padding: 13px 22px;
+  border-radius: 0 15px 15px 0;
+  background-color: #2ecc71;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.ml-100{
+    margin-left: 100px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+/*responsive*/
+.container {
+    max-width: 1180px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.GreenLine {
+    height: 10px;
+    background-color: #2ecc71;
+}
+
+
+header {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 170px;
+}
+
+/*?*/
+header .container>* {
+    margin-left: 120px;
+}
+
+header .container {
+    padding-bottom: 305px;
+}
+/*?*/
+
+.text-1 {
+    font: 500 24px var(--FontO);
+    max-width: 469px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.SocialList {
+    margin-top: 25px;
+}
+
+.SocialList a {
+    display: inline-block;
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: .5;
+    position: relative;
+    margin-left: 15px;
+}
+
+.SocialList a:hover {
+    background-color: #2ecc71;
+    opacity: 1;
+}
+
+.SocialList i {
+    color: #fff;
+    opacity: .8;
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*daireler*/
+
+#daireler a{
+    display: inline-block;
+    background-color: #2ecc71;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: 1;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+#daireler i{
+    color: #fafefc;
+    opacity: 1;
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#daireler article h1{
+    font: 500 24px var(--FontO);
+    line-height: 36px;
+    color: #2e2e2e;
+    text-align: center;
+}
+#daireler p{
+    display: block;
+    margin: auto;
+   max-width: 320px;
+   font: 300 16px var(--fontComic);
+   line-height: 26px;
+   color: #000;
+   opacity: 1;
+   color: #848484;
+   text-align: center;
+}
+/*staytuned*/
+#staytuned{
+    background-color: #e3e3e3;
+}
+#staytuned h2{
+    font: 500 24px var(--FontO);
+    line-height: 36px;
+    color: #2e2e2e;
+}
+#staytuned p{
+    max-width: 541px;
+    font: 300 16px var(--fontComic);
+    line-height: 26px;
+    color: #848484;
+}
+#staytuned video{
+    max-width: 500px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+/*people*/
+.p1{
+    max-width: 887px;
+    font: 300 18px var(--fontComic);
+    line-height: 30px;
+    color: #848484;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+#people h3{
+    font: 700 18px var(--FontO);
+    line-height: 20px;
+    color: #2e2e2e;
+    text-align: center;
+}
+#people img{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#people img:hover{
+   background-color: green;
+   color: green;
+}
+#people h2{
+    font: 700 18px var(--FontO);
+    line-height: 20px;
+    color: #2e2e2e;
+    text-align: center;
+}
+#people div{
+ text-align: center;
+}
+#people div a{ 
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 1;
+    width: 34px;
+    height: 34px;
+    background-color: #c5c5c5; 
+    position: relative;
+}
+#people div i{
+    font-size: 20px;
+    opacity: 1;
+    color: #ffffff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#people div a:hover{
+    background-color: green;
+    color: green;
+ }
+/*footer*/
+footer{
+background-color: #e3e3e3;
+}
+footer ul{
+   text-align: center;
+}
+footer ul li{
+    display: inline;
+    list-style: none;
+}
+footer ul li a{
+    padding-right: 30px;
+    text-decoration: none;
+    font: 300 16px var(--fontComic);
+    color: #848484;
+    line-height: 26px;
+}
